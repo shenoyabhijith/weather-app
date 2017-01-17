@@ -1,70 +1,68 @@
-html,body{
-    margin:0;
-    padding:0;
-    height:100%; 
-    width:100%; 
-   background-color:#2196F3;
-   
-   
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  position:absolute;
+
+  background:url("https://s27.postimg.org/c1ifb47f7/pexels_photo.jpg") no-repeat center center fixed;
+  background-size:cover;
 }
-.text{
-  margin:10px;
-}
-#sun{#FFEB3B;
-     margin-top:8px;
-     color:#FFEB3B;
-}
-.blocks{ 
-    background-color:#0D47A1;
-     text-align:left; 
-     color:#E3F2FD;
-     height:80px;
-   
-   }
 h1{
-  margin:0;
-  text-align:center;
- 
-}
-.weather-color{
-  color:#BBDEFB;
-}
-.cont{
-  padding:2%;
-}
-.secondary{
-  display:block;
- background-color:#64B5F6;
-  height:60%;
-  margin-top:-25%;
-  overflow:hidden;
-}
-#search{
-  float:right;
-  margin:30px;
- 
-}
-.content{
   
-  diplay:block;
-  height:450px;
-  width:800px;
-  margin-top:100px;
-  margin-left:auto;
-  margin-right:auto;
-  background-color:#0d357d;
+  text-align:center;
+  color:#ebf2f6;
+}
+.text {
+  margin: 10px;
+}
 
+.blocks {
+  text-align: left;
+  color: #D50000;
+  height: 80px;
+}
+
+.secondary {
+  display: block;
+  height: 60%;
+  overflow: hidden;
+}
+
+#cntnt {
+  padding: 40px;
+}
+
+.content {
+  diplay: block;
+  height: 450px;
+  width: 800px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
   position: relative;
-   box-shadow: 10px 10px 5px #1565C0;
- 
-}
-#w-image{
-  padding:2%;
-}
-#cntnt b{
-  font-size:15px;
-   
-  color:#43abc9;
- font-family: 'Alice', serif;
+  box-shadow: 0px 0px 25px 1px rgba(50, 50, 50, 0.1);
+  border-radius: 20px;
 }
 
+#cntnt {
+  font-size: 18px;
+  color: #C8DAE6; //  degree color
+}
+
+#cntnt h3 {
+  font-size: 28px;
+  color: #dadada;
+}
+
+#cntnt h4 {
+  font-size: 160px;
+  font-family: 'Lato', sans-serif;
+}
+
+#w-image {
+  padding: 5%;
+  background: #ffffcc;
+  border-radius: 23%;
+}
